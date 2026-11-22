@@ -1,0 +1,71 @@
+<div class="viewcat shops-cat-page shops-cat-page-shops" id="category">
+    <div class="page-header">
+        <h1>váy dài (2 sản phẩm)</h1>
+        
+    </div>
+    
+    
+    <div id="shops-content">
+        <div class="product-viewlist">
+        <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="mb-2 mr-2 pull-left">
+                <a href="/nukeviet/NukeViet/nukeviet/index.php?language=vi&amp;nv=shops&amp;op=vay-dai/acer-nitro-5-tiger.html" title="Acer Nitro 5 Tiger (i5-12500H / 16GB / 512GB / RTX 3050)" rel="dofollow"><img src="/nukeviet/NukeViet/nukeviet/assets/shops/2015_05/giay-bup-be-ngoi-sao-nhap-khau.jpg" alt="Acer Nitro 5 Tiger (i5-12500H / 16GB / 512GB / RTX 3050)" max-width="100"></a>
+            </div>
+            <h3>
+                <a href="/nukeviet/NukeViet/nukeviet/index.php?language=vi&amp;nv=shops&amp;op=vay-dai/acer-nitro-5-tiger.html" title="Acer Nitro 5 Tiger (i5-12500H / 16GB / 512GB / RTX 3050)" rel="dofollow">Acer Nitro 5 Tiger (i5-12500H / 16GB / 512GB / RTX 3050)</a>
+            </h3>
+                        <p class="label label-default pro-code"></p>
+            
+                        <p class="price price-value">
+                Giá bán:
+                
+                                <span class="money">18.990.000 đ</span>
+                
+            </p>
+            
+            
+            <div class="clearfix pro-order">
+                                <a href="javascript:void(0)" id="2" title="Acer Nitro 5 Tiger (i5-12500H / 16GB / 512GB / RTX 3050)" onclick="cartorder(this, 1, '/nukeviet/NukeViet/nukeviet/index.php?language=vi&amp;nv=shops&amp;op=vay-dai/acer-nitro-5-tiger.html'); return !1;"><button type="button" class="btn btn-primary btn-xs">Đặt hàng</button></a>
+                
+                
+                                <a href="javascript:void(0)" title="Acer Nitro 5 Tiger (i5-12500H / 16GB / 512GB / RTX 3050)"><button type="button" onclick="wishlist(2, this)" class="btn btn-primary btn-xs ">Yêu thích</button></a>
+                
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="mb-2 mr-2 pull-left">
+                <a href="/nukeviet/NukeViet/nukeviet/index.php?language=vi&amp;nv=shops&amp;op=vay-dai/asus-rog-strix-g16.html" title="ASUS ROG Strix G16 (i7-13650HX / 16GB / 512GB / RTX 4060)" rel="dofollow"><img src="/nukeviet/NukeViet/nukeviet/assets/shops/2015_05/giay-bup-be-ngoi-sao-nhap-khau.jpg" alt="ASUS ROG Strix G16 (i7-13650HX / 16GB / 512GB / RTX 4060)" max-width="100"></a>
+            </div>
+            <h3>
+                <a href="/nukeviet/NukeViet/nukeviet/index.php?language=vi&amp;nv=shops&amp;op=vay-dai/asus-rog-strix-g16.html" title="ASUS ROG Strix G16 (i7-13650HX / 16GB / 512GB / RTX 4060)" rel="dofollow">ASUS ROG Strix G16 (i7-13650HX / 16GB / 512GB / RTX 4060)</a>
+            </h3>
+                        <p class="label label-default pro-code"></p>
+            
+                        <p class="price price-value">
+                Giá bán:
+                
+                                <span class="money">32.990.000 đ</span>
+                
+            </p>
+            
+            
+            <div class="clearfix pro-order">
+                                <a href="javascript:void(0)" id="1" title="ASUS ROG Strix G16 (i7-13650HX / 16GB / 512GB / RTX 4060)" onclick="cartorder(this, 1, '/nukeviet/NukeViet/nukeviet/index.php?language=vi&amp;nv=shops&amp;op=vay-dai/asus-rog-strix-g16.html'); return !1;"><button type="button" class="btn btn-primary btn-xs">Đặt hàng</button></a>
+                
+                
+                                <a href="javascript:void(0)" title="ASUS ROG Strix G16 (i7-13650HX / 16GB / 512GB / RTX 4060)"><button type="button" onclick="wishlist(1, this)" class="btn btn-primary btn-xs ">Yêu thích</button></a>
+                
+            </div>
+            
+        </div>
+    </div>
+    
+    
+</div>
+    </div>
+</div>
