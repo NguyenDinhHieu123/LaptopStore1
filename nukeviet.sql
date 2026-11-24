@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th10 19, 2026 lúc 04:45 AM
+-- Thời gian đã tạo: Th10 24, 2026 lúc 06:43 PM
 -- Phiên bản máy phục vụ: 10.4.32-MariaDB
 -- Phiên bản PHP: 8.2.12
 
@@ -54,7 +54,7 @@ CREATE TABLE `nv4_authors` (
 --
 
 INSERT INTO `nv4_authors` (`admin_id`, `editor`, `lev`, `files_level`, `position`, `main_module`, `admin_theme`, `addtime`, `edittime`, `is_suspend`, `susp_reason`, `pre_check_num`, `pre_last_login`, `pre_last_ip`, `pre_last_agent`, `check_num`, `last_login`, `last_ip`, `last_agent`) VALUES
-(1, 'ckeditor5-classic', 1, 'adobe,archives,audio,documents,flash,images,real,video|1|1|1', 'Administrator', 'siteinfo', '', 0, 0, 0, '', '', 0, '', '', 'e73c18ae94b78a79f0050e03c11b56e8', 1795018017, '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36');
+(1, 'ckeditor5-classic', 1, 'adobe,archives,audio,documents,flash,images,real,video|1|1|1', 'Administrator', 'siteinfo', '', 0, 0, 0, '', '', 0, '', '', 'd434a06e08972e5ef15b9ee532cd486b', 1795540598, '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36');
 
 -- --------------------------------------------------------
 
@@ -456,7 +456,7 @@ INSERT INTO `nv4_config` (`lang`, `module`, `config_name`, `config_value`) VALUE
 ('vi', 'global', 'autologosize3', '30'),
 ('vi', 'global', 'autologomod', ''),
 ('vi', 'global', 'name_show', '0'),
-('vi', 'global', 'cronjobs_next_time', '1795060073'),
+('vi', 'global', 'cronjobs_next_time', '1795542175'),
 ('vi', 'global', 'disable_site_content', '<p>Vì lý do kỹ thuật website tạm ngưng hoạt động. Thành thật xin lỗi các bạn vì sự bất tiện này!</p>'),
 ('vi', 'seotools', 'prcservice', ''),
 ('vi', 'about', 'auto_postcomm', '1'),
@@ -691,9 +691,9 @@ CREATE TABLE `nv4_counter` (
 
 INSERT INTO `nv4_counter` (`c_type`, `c_val`, `last_update`, `c_count`, `vi_count`) VALUES
 ('c_time', 'start', 0, 0, 0),
-('c_time', 'last', 0, 1795059772, 0),
-('total', 'hits', 1795059772, 7, 7),
-('year', '2026', 1795059772, 7, 7),
+('c_time', 'last', 0, 1795541875, 0),
+('total', 'hits', 1795541875, 14, 14),
+('year', '2026', 1795541875, 14, 14),
 ('year', '2027', 0, 0, 0),
 ('year', '2028', 0, 0, 0),
 ('year', '2029', 0, 0, 0),
@@ -712,7 +712,7 @@ INSERT INTO `nv4_counter` (`c_type`, `c_val`, `last_update`, `c_count`, `vi_coun
 ('month', 'Aug', 0, 0, 0),
 ('month', 'Sep', 0, 0, 0),
 ('month', 'Oct', 0, 0, 0),
-('month', 'Nov', 1795059772, 7, 7),
+('month', 'Nov', 1795541875, 14, 14),
 ('month', 'Dec', 0, 0, 0),
 ('day', '01', 0, 0, 0),
 ('day', '02', 0, 0, 0),
@@ -737,8 +737,8 @@ INSERT INTO `nv4_counter` (`c_type`, `c_val`, `last_update`, `c_count`, `vi_coun
 ('day', '21', 0, 0, 0),
 ('day', '22', 0, 0, 0),
 ('day', '23', 0, 0, 0),
-('day', '24', 0, 0, 0),
-('day', '25', 0, 0, 0),
+('day', '24', 1795539552, 4, 4),
+('day', '25', 1795541875, 3, 3),
 ('day', '26', 0, 0, 0),
 ('day', '27', 0, 0, 0),
 ('day', '28', 0, 0, 0),
@@ -747,13 +747,13 @@ INSERT INTO `nv4_counter` (`c_type`, `c_val`, `last_update`, `c_count`, `vi_coun
 ('day', '31', 0, 0, 0),
 ('dayofweek', 'Sunday', 0, 0, 0),
 ('dayofweek', 'Monday', 0, 0, 0),
-('dayofweek', 'Tuesday', 0, 0, 0),
-('dayofweek', 'Wednesday', 1795021092, 3, 3),
+('dayofweek', 'Tuesday', 1795539552, 4, 4),
+('dayofweek', 'Wednesday', 1795541875, 6, 6),
 ('dayofweek', 'Thursday', 1795059772, 4, 4),
 ('dayofweek', 'Friday', 0, 0, 0),
 ('dayofweek', 'Saturday', 0, 0, 0),
-('hour', '00', 1795023116, 2, 2),
-('hour', '01', 1795024922, 1, 1),
+('hour', '00', 1795541875, 3, 3),
+('hour', '01', 1795024922, 0, 0),
 ('hour', '02', 0, 0, 0),
 ('hour', '03', 0, 0, 0),
 ('hour', '04', 0, 0, 0),
@@ -762,7 +762,7 @@ INSERT INTO `nv4_counter` (`c_type`, `c_val`, `last_update`, `c_count`, `vi_coun
 ('hour', '07', 0, 0, 0),
 ('hour', '08', 0, 0, 0),
 ('hour', '09', 0, 0, 0),
-('hour', '10', 1795059772, 1, 1),
+('hour', '10', 1795059772, 0, 0),
 ('hour', '11', 0, 0, 0),
 ('hour', '12', 0, 0, 0),
 ('hour', '13', 0, 0, 0),
@@ -773,9 +773,9 @@ INSERT INTO `nv4_counter` (`c_type`, `c_val`, `last_update`, `c_count`, `vi_coun
 ('hour', '18', 0, 0, 0),
 ('hour', '19', 0, 0, 0),
 ('hour', '20', 0, 0, 0),
-('hour', '21', 0, 0, 0),
+('hour', '21', 1795531100, 0, 0),
 ('hour', '22', 1795017428, 0, 0),
-('hour', '23', 1795021092, 0, 0),
+('hour', '23', 1795539552, 0, 0),
 ('bot', 'googlebot', 0, 0, 0),
 ('bot', 'msnbot', 0, 0, 0),
 ('bot', 'bingbot', 0, 0, 0),
@@ -785,7 +785,7 @@ INSERT INTO `nv4_counter` (`c_type`, `c_val`, `last_update`, `c_count`, `vi_coun
 ('browser', 'operamini', 0, 0, 0),
 ('browser', 'webtv', 0, 0, 0),
 ('browser', 'explorer', 0, 0, 0),
-('browser', 'edge', 0, 0, 0),
+('browser', 'edge', 1795540041, 4, 4),
 ('browser', 'pocket', 0, 0, 0),
 ('browser', 'konqueror', 0, 0, 0),
 ('browser', 'icab', 0, 0, 0),
@@ -801,7 +801,7 @@ INSERT INTO `nv4_counter` (`c_type`, `c_val`, `last_update`, `c_count`, `vi_coun
 ('browser', 'iphone', 0, 0, 0),
 ('browser', 'ipod', 0, 0, 0),
 ('browser', 'ipad', 0, 0, 0),
-('browser', 'chrome', 1795059772, 7, 7),
+('browser', 'chrome', 1795541875, 10, 10),
 ('browser', 'cococ', 0, 0, 0),
 ('browser', 'android', 0, 0, 0),
 ('browser', 'googlebot', 0, 0, 0),
@@ -823,7 +823,7 @@ INSERT INTO `nv4_counter` (`c_type`, `c_val`, `last_update`, `c_count`, `vi_coun
 ('browser', 'Unknown', 0, 0, 0),
 ('os', 'unknown', 0, 0, 0),
 ('os', 'win', 0, 0, 0),
-('os', 'win10', 1795059772, 7, 7),
+('os', 'win10', 1795541875, 14, 14),
 ('os', 'win8', 0, 0, 0),
 ('os', 'win7', 0, 0, 0),
 ('os', 'win2003', 0, 0, 0),
@@ -1075,7 +1075,7 @@ INSERT INTO `nv4_counter` (`c_type`, `c_val`, `last_update`, `c_count`, `vi_coun
 ('country', 'ZA', 0, 0, 0),
 ('country', 'ZM', 0, 0, 0),
 ('country', 'ZW', 0, 0, 0),
-('country', 'ZZ', 1795059772, 7, 7),
+('country', 'ZZ', 1795541875, 14, 14),
 ('country', 'unkown', 0, 0, 0);
 
 -- --------------------------------------------------------
@@ -1105,15 +1105,15 @@ CREATE TABLE `nv4_cronjobs` (
 --
 
 INSERT INTO `nv4_cronjobs` (`id`, `start_time`, `inter_val`, `inter_val_type`, `run_file`, `run_func`, `params`, `del`, `is_sys`, `act`, `last_time`, `last_result`, `vi_cron_name`) VALUES
-(1, 1795017340, 5, 0, 'online_expired_del.php', 'cron_online_expired_del', '', 0, 1, 1, 1795059773, 1, 'Xóa các dòng ghi trạng thái online đã cũ trong CSDL'),
-(2, 1795017340, 1440, 0, 'dump_autobackup.php', 'cron_dump_autobackup', '', 0, 1, 1, 1795017430, 1, 'Tự động lưu CSDL'),
-(3, 1795017340, 60, 0, 'temp_download_destroy.php', 'cron_auto_del_temp_download', '', 0, 1, 1, 1795059773, 1, 'Xóa các file tạm trong thư mục tmp'),
-(4, 1795017340, 30, 0, 'ip_logs_destroy.php', 'cron_del_ip_logs', '', 0, 1, 1, 1795059773, 1, 'Xóa IP log files, Xóa các file nhật ký truy cập'),
-(5, 1795017340, 1440, 0, 'error_log_destroy.php', 'cron_auto_del_error_log', '', 0, 1, 1, 1795017430, 1, 'Xóa các file error_log quá hạn'),
+(1, 1795017340, 5, 0, 'online_expired_del.php', 'cron_online_expired_del', '', 0, 1, 1, 1795541875, 1, 'Xóa các dòng ghi trạng thái online đã cũ trong CSDL'),
+(2, 1795017340, 1440, 0, 'dump_autobackup.php', 'cron_dump_autobackup', '', 0, 1, 1, 1795531098, 1, 'Tự động lưu CSDL'),
+(3, 1795017340, 60, 0, 'temp_download_destroy.php', 'cron_auto_del_temp_download', '', 0, 1, 1, 1795539507, 1, 'Xóa các file tạm trong thư mục tmp'),
+(4, 1795017340, 30, 0, 'ip_logs_destroy.php', 'cron_del_ip_logs', '', 0, 1, 1, 1795541875, 1, 'Xóa IP log files, Xóa các file nhật ký truy cập'),
+(5, 1795017340, 1440, 0, 'error_log_destroy.php', 'cron_auto_del_error_log', '', 0, 1, 1, 1795531098, 1, 'Xóa các file error_log quá hạn'),
 (6, 1795017340, 360, 0, 'error_log_sendmail.php', 'cron_auto_sendmail_error_log', '', 0, 1, 0, 0, 0, 'Gửi email các thông báo lỗi cho admin'),
-(7, 1795017340, 60, 0, 'ref_expired_del.php', 'cron_ref_expired_del', '', 0, 1, 1, 1795059773, 1, 'Xóa các referer quá hạn'),
-(8, 1795017340, 60, 0, 'check_version.php', 'cron_auto_check_version', '', 0, 1, 1, 1795059773, 1, 'Kiểm tra phiên bản NukeViet'),
-(9, 1795017340, 1440, 0, 'notification_autodel.php', 'cron_notification_autodel', '', 0, 1, 1, 1795017430, 1, 'Xóa thông báo cũ');
+(7, 1795017340, 60, 0, 'ref_expired_del.php', 'cron_ref_expired_del', '', 0, 1, 1, 1795539507, 1, 'Xóa các referer quá hạn'),
+(8, 1795017340, 60, 0, 'check_version.php', 'cron_auto_check_version', '', 0, 1, 1, 1795539507, 1, 'Kiểm tra phiên bản NukeViet'),
+(9, 1795017340, 1440, 0, 'notification_autodel.php', 'cron_notification_autodel', '', 0, 1, 1, 1795531098, 1, 'Xóa thông báo cũ');
 
 -- --------------------------------------------------------
 
@@ -1538,7 +1538,22 @@ INSERT INTO `nv4_logs` (`id`, `lang`, `module_name`, `name_key`, `note_action`, 
 (44, 'vi', 'themes', 'Thêm block', 'Name : CHÍNH SÁCH KHÁCH HÀNG', '', 1, 1795025078),
 (45, 'vi', 'themes', 'Sửa block', 'Name : CHÍNH SÁCH KHÁCH HÀNG', '', 1, 1795025103),
 (46, 'vi', 'themes', 'Sửa block', 'Name : Công ty chủ quản', '', 1, 1795025144),
-(47, 'vi', 'themes', 'Sửa block', 'Name : Copyright', '', 1, 1795025161);
+(47, 'vi', 'themes', 'Sửa block', 'Name : Copyright', '', 1, 1795025161),
+(48, 'vi', 'users', '[admin] Đăng nhập theo kiểu thông thường', ' Client IP:::1', '', 0, 1795540272),
+(49, 'vi', 'login', '[admin] Đăng nhập Thất bại', ' Client IP:::1', '', 0, 1795540339),
+(50, 'vi', 'login', '[admin] Đăng nhập', ' Client IP:::1', '', 0, 1795540343),
+(51, 'vi', 'users', '[admin] Đăng nhập theo kiểu thông thường', ' Client IP:::1', '', 0, 1795540400),
+(52, 'vi', 'login', '[admin] Đăng nhập Thất bại', ' Client IP:::1', '', 0, 1795540588),
+(53, 'vi', 'login', '[admin] Đăng nhập Thất bại', ' Client IP:::1', '', 0, 1795540590),
+(54, 'vi', 'login', '[admin] Đăng nhập Thất bại', ' Client IP:::1', '', 0, 1795540594),
+(55, 'vi', 'login', '[admin] Đăng nhập', ' Client IP:::1', '', 0, 1795540598),
+(56, 'vi', 'themes', 'Thiết lập layout theme: \"default\"', '', '', 1, 1795540739),
+(57, 'vi', 'themes', 'Thiết lập layout theme: \"default\"', '', '', 1, 1795540755),
+(58, 'vi', 'themes', 'Thiết lập layout theme: \"default\"', '', '', 1, 1795540773),
+(59, 'vi', 'themes', 'Thiết lập layout theme: \"default\"', '', '', 1, 1795540793),
+(60, 'vi', 'themes', 'Thiết lập layout theme: \"default\"', '', '', 1, 1795540928),
+(61, 'vi', 'themes', 'Thêm block', 'Name : GIới thiệu chung', '', 1, 1795541128),
+(62, 'vi', 'themes', 'Sửa block', 'Name : GIới thiệu chung', '', 1, 1795541184);
 
 -- --------------------------------------------------------
 
@@ -1601,7 +1616,7 @@ CREATE TABLE `nv4_sessions` (
 --
 
 INSERT INTO `nv4_sessions` (`session_id`, `userid`, `username`, `onl_time`) VALUES
-('6etd40rogt3cc4derb8vr7tdmp', 0, 'guest', 1795059773);
+('ufldq3u7k76cncklfk5tuna2di', 1, 'admin', 1795541951);
 
 -- --------------------------------------------------------
 
@@ -1841,23 +1856,7 @@ INSERT INTO `nv4_shops_catalogs` (`catid`, `parentid`, `image`, `weight`, `sort`
 (2, 0, '', 1, 1, 0, 'viewlist', 4, '6,7,8,9', 1, 4, 7, 1, '', '', 0, '', 1432362728, 1432362803, '6', 0, 0, 0, 'Laptop Văn phòng', 'Váy', 'laptop-van-phong', '', '', 'váy, vay', NULL),
 (3, 0, '', 2, 6, 0, 'viewlist', 4, '13,14,15,16', 1, 4, 7, 1, '', '', 0, '', 1432362789, 1432362789, '6', 0, 0, 0, 'MacBook Chính Hãng', 'Giày dép', 'macbook-chinh-hang', '', '', 'giay, dep, giày, dép', NULL),
 (4, 0, '', 3, 11, 0, 'viewlist', 3, '10,11,12', 1, 4, 7, 1, '', '', 0, '', 1432362835, 1432364806, '6', 0, 0, 0, 'Linh kiện - Phụ kiện', 'Áo', 'linh-kien-phu-kien', '', '', 'áo, ao', NULL),
-(5, 0, '', 4, 15, 0, 'viewlist', 5, '18,19,20,21,22', 1, 4, 7, 1, '', '', 0, '', 1432362887, 1432362887, '6', 0, 0, 0, 'Phụ kiện', 'Phụ kiện', 'Phu-kien', '', '', 'Phụ kiện, Phu kien, kiện, kien, phu kien', NULL),
-(6, 2, '', 1, 2, 1, 'viewlist', 0, '', 1, 4, 7, 1, '', '', 0, '', 1432364675, 1432364675, '6', 0, 0, 0, 'váy dài', 'váy dài', 'vay-dai', '', '', 'váy dài, dài, vay dai', NULL),
-(7, 2, '', 2, 3, 1, 'viewlist', 0, '', 1, 4, 7, 1, '', '', 0, '', 1432364695, 1432364695, '6', 0, 0, 0, 'váy ngắn', 'váy ngắn', 'vay-ngan', '', '', 'váy ngắn, vay ngan', NULL),
-(8, 2, '', 3, 4, 1, 'viewlist', 0, '', 1, 4, 7, 1, '', '', 0, '', 1432364752, 1432364752, '6', 0, 0, 0, 'đầm maxi', 'đầm maxi', 'dam-maxi', '', '', 'đầm, maxi, Maxi, đầm maxi, Đầm maxi', NULL),
-(9, 2, '', 4, 5, 1, 'viewlist', 0, '', 1, 4, 7, 1, '', '', 0, '', 1432364786, 1432364786, '6', 0, 0, 0, 'Váy chữ A', 'Váy chữ A', 'Vay-chu-A', '', '', 'Váy chữ A, váy chữ a', NULL),
-(10, 4, '', 1, 12, 1, 'viewlist', 0, '', 1, 4, 7, 1, '', '', 0, '', 1432364825, 1432364863, '6', 0, 0, 0, 'Áo sơmi', 'Áo sơmi', 'Ao-somi', '', '', 'Áo sơmi,, sơmi. áo', NULL),
-(11, 4, '', 2, 13, 1, 'viewlist', 0, '', 1, 4, 7, 1, '', '', 0, '', 1432364880, 1432364880, '6', 0, 0, 0, 'Áo phông', 'Áo phông', 'Ao-phong', '', '', '', NULL),
-(12, 4, '', 3, 14, 1, 'viewlist', 0, '', 1, 4, 7, 1, '', '', 0, '', 1432364936, 1432364936, '6', 0, 0, 0, 'Áo dáng dài', 'Áo dáng dài', 'Ao-dang-dai', '', '', 'Áo dáng dài, áo', NULL),
-(13, 3, '', 1, 7, 1, 'viewlist', 0, '', 1, 4, 7, 1, '', '', 0, '', 1432364976, 1432364976, '6', 0, 0, 0, 'Giày cao gót', 'Giày cao gót', 'Giay-cao-got', '', '', 'Giày cao gót, cao gót, cao got', NULL),
-(14, 3, '', 2, 8, 1, 'viewlist', 0, '', 1, 4, 7, 1, '', '', 0, '', 1432365033, 1432365033, '6', 0, 0, 0, 'Giày sandal', 'Giày sandal', 'Giay-sandal', '', '', 'sandal, Sandal, giày, giày sandal', NULL),
-(15, 3, '', 3, 9, 1, 'viewlist', 0, '', 1, 4, 7, 1, '', '', 0, '', 1432365081, 1432365081, '6', 0, 0, 0, 'Giày búp bê', 'Giày búp bê', 'Giay-bup-be', '', '', 'giày búp bê, Giày búp bê, giay bup be, Giay bup be, búp bê, bup be', NULL),
-(16, 3, '', 4, 10, 1, 'viewlist', 0, '', 1, 4, 7, 1, '', '', 0, '', 1432365108, 1432365108, '6', 0, 0, 0, 'Giày vải', 'Giày vải', 'Giay-vai', '', '', 'vải, giày vải, giay vai', NULL),
-(19, 5, '', 2, 17, 1, 'viewlist', 0, '', 1, 4, 7, 1, '', '', 0, '', 1432365211, 1432365211, '6', 0, 0, 0, 'Lắc tay', 'Lắc tay', 'Lac-tay', '', '', 'Lắc tay. lac tay, lắc', NULL),
-(18, 5, '', 1, 16, 1, 'viewlist', 0, '', 1, 4, 7, 1, '', '', 0, '', 1432365185, 1432365185, '6', 0, 0, 0, 'Vòng cổ', 'Vòng cổ', 'Phu-kien-Vong-co', '', '', 'vòng cổ, Vòng cổ, vong co', NULL),
-(20, 5, '', 3, 18, 1, 'viewlist', 0, '', 1, 4, 7, 1, '', '', 0, '', 1432365242, 1432365242, '6', 0, 0, 0, 'Thắt lưng', 'Thắt lưng', 'That-lung', '', '', 'Thắt lưng, that lung, thắt lưng', NULL),
-(21, 5, '', 4, 19, 1, 'viewlist', 0, '', 1, 4, 7, 1, '', '', 0, '', 1432365281, 1432365281, '6', 0, 0, 0, 'Đồng hồ', 'Đồng hồ', 'Dong-ho', '', '', 'Đồng hồ, hồ, dong ho', NULL),
-(22, 5, '', 5, 20, 1, 'viewlist', 0, '', 1, 4, 7, 1, '', '', 0, '', 1432365303, 1432365303, '6', 0, 0, 0, 'Ví nữ', 'Ví nữ', 'Vi-nu', '', '', 'ví nữ, ví', NULL);
+(5, 0, '', 4, 15, 0, 'viewlist', 5, '18,19,20,21,22', 1, 4, 7, 1, '', '', 0, '', 1432362887, 1432362887, '6', 0, 0, 0, 'Phụ kiện', 'Phụ kiện', 'Phu-kien', '', '', 'Phụ kiện, Phu kien, kiện, kien, phu kien', NULL);
 
 -- --------------------------------------------------------
 
@@ -2834,7 +2833,7 @@ CREATE TABLE `nv4_users` (
 --
 
 INSERT INTO `nv4_users` (`userid`, `group_id`, `username`, `md5username`, `password`, `email`, `first_name`, `last_name`, `gender`, `photo`, `birthday`, `sig`, `regdate`, `question`, `answer`, `passlostkey`, `view_mail`, `remember`, `in_groups`, `active`, `active2step`, `secretkey`, `checknum`, `last_login`, `last_ip`, `last_agent`, `last_openid`, `last_update`, `idsite`, `safemode`, `safekey`, `email_verification_time`, `active_obj`) VALUES
-(1, 1, 'admin', '21232f297a57a5a743894a0e4a801fc3', '{CRYPT}$2y$10$DIXZeCpMisZVlomFyuAiwOC4Y04Rk8h4wP/1ZkFQg/VR4eRxAKPPe', 'anhemqk2018@gmail.com', 'admin', '', '', '', 0, '', 1795017406, 'Ai là GOAT ?', 'Ronaldo', '', 0, 1, '1,4', 1, 0, '', '', 1795017406, '', '', '', 0, 0, 0, '', -3, 'SYSTEM');
+(1, 1, 'admin', '21232f297a57a5a743894a0e4a801fc3', '{CRYPT}$2y$10$DIXZeCpMisZVlomFyuAiwOC4Y04Rk8h4wP/1ZkFQg/VR4eRxAKPPe', 'anhemqk2018@gmail.com', 'admin', '', '', '', 0, '', 1795017406, 'Ai là GOAT ?', 'Ronaldo', '', 0, 1, '1,4', 1, 0, '', '515e18e6f9d0084543f66985966868cd', 1795540400, '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36', '', 0, 0, 0, '', -3, 'SYSTEM');
 
 -- --------------------------------------------------------
 
@@ -3149,7 +3148,7 @@ CREATE TABLE `nv4_vi_about` (
 --
 
 INSERT INTO `nv4_vi_about` (`id`, `title`, `alias`, `image`, `imagealt`, `imageposition`, `description`, `bodytext`, `keywords`, `socialbutton`, `activecomm`, `layout_func`, `weight`, `admin_id`, `add_time`, `edit_time`, `status`, `hitstotal`, `hot_post`) VALUES
-(1, 'Giới thiệu về LaptopStore', 'gioi-thieu-ve-laptopstore', '', '', 0, '', '<div class=\"n6owBd awi2gc\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:0px 0px 16px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAB\" data-complete=\"true\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">LaptopStore – Hệ thống bán lẻ Laptop Chính hãng &amp; Giá tốt hàng đầu</strong></div><div class=\"n6owBd awi2gc\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:12px 0px 16px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAC\" data-complete=\"true\">Chào mừng bạn đến với <strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">LaptopStore</strong>! Chúng tôi tự hào là đơn vị chuyên phân phối các dòng máy tính xách tay chính hãng từ những thương hiệu hàng đầu thế giới như ASUS, Dell, Apple MacBook, Lenovo, Acer, MSI và HP. Với phương châm <em class=\"zhvwWe\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\"><i>&quot;Chất lượng thật - Giá trị thật&quot;</i></em>, LaptopStore luôn nỗ lực mang đến giải pháp công nghệ tối ưu nhất cho sinh viên, nhân viên văn phòng, lập trình viên và game thủ.</div><div class=\"n6owBd awi2gc\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:12px 0px 16px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAD\" data-complete=\"true\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">Các dòng sản phẩm chủ lực tại cửa hàng</strong></div><ul class=\"XSq4R KI3fJ\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:12px 0px 16px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAE\" data-complete=\"true\"><li class=\"Z1qcYe ck-list-marker-font-size ck-list-marker-font-family\" style=\"--ck-content-list-marker-font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;--ck-content-list-marker-font-size:16px;border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:0px 0px 12px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAF\" data-complete=\"true\" data-sae=\"\" data-list-item-id=\"e4e8e71b9ad91f019eb1f7dbcbb4b0bc0\"><span style=\"font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;\"><span class=\"iNqyIf\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">Laptop Gaming &amp; Đồ họa:</strong> Cấu hình cực khủng, tản nhiệt mát mẻ, màn hình tần số quét cao chuyên trị game nặng và dựng hình 3D.</span></span></li><li class=\"Z1qcYe ck-list-marker-font-size ck-list-marker-font-family\" style=\"--ck-content-list-marker-font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;--ck-content-list-marker-font-size:16px;border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:0px 0px 12px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAG\" data-complete=\"true\" data-sae=\"\" data-list-item-id=\"e6d249c5b416eb038fbde5772ba25a6fa\"><span style=\"font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;\"><span class=\"iNqyIf\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">Laptop Học tập - Văn phòng:</strong> Thiết kế mỏng nhẹ, vỏ kim loại sang trọng, thời lượng pin bền bỉ cả ngày làm việc.</span></span></li><li class=\"Z1qcYe ck-list-marker-font-size ck-list-marker-font-family\" style=\"--ck-content-list-marker-font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;--ck-content-list-marker-font-size:16px;border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:0px 0px 12px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAH\" data-complete=\"true\" data-sae=\"\" data-list-item-id=\"e138f26dd6e5ddc2f9873f64b61394865\"><span style=\"font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;\"><span class=\"iNqyIf\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">Apple MacBook Chính hãng:</strong> Đầy đủ các phiên bản MacBook Air và MacBook Pro chip M-series mới nhất, nguyên seal.</span></span></li><li class=\"Z1qcYe ck-list-marker-font-size ck-list-marker-font-family\" style=\"--ck-content-list-marker-font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;--ck-content-list-marker-font-size:16px;border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAI\" data-complete=\"true\" data-sae=\"\" data-list-item-id=\"e8ddc8f547a7b60415dc3d7aa156044a0\"><span style=\"font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;\"><span class=\"iNqyIf\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">Linh kiện &amp; Phụ kiện:</strong> Nâng cấp RAM, ổ cứng SSD lấy ngay, cung cấp chuột, bàn phím cơ và balo chống sốc.</span></span></li></ul><div class=\"n6owBd awi2gc\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:12px 0px 16px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAJ\" data-complete=\"true\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">5 Đặc quyền mua sắm chỉ có tại LaptopStore</strong></div><ul class=\"XSq4R KI3fJ\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:12px 0px 16px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAK\" data-complete=\"true\"><li class=\"Z1qcYe ck-list-marker-font-size ck-list-marker-font-family\" style=\"--ck-content-list-marker-font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;--ck-content-list-marker-font-size:16px;border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:0px 0px 12px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAL\" data-complete=\"true\" data-sae=\"\" data-list-item-id=\"e50ac8e9daf42969ebc7709c33c9f3d28\"><span style=\"font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;\"><span class=\"iNqyIf\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">Hàng chuẩn chính hãng 100%:</strong> Đầy đủ hộp, phụ kiện zin và giấy tờ chứng nhận nguồn gốc xuất xứ rõ ràng.</span></span></li><li class=\"Z1qcYe ck-list-marker-font-size ck-list-marker-font-family\" style=\"--ck-content-list-marker-font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;--ck-content-list-marker-font-size:16px;border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:0px 0px 12px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAM\" data-complete=\"true\" data-sae=\"\" data-list-item-id=\"e7db370e26c47e31ff310190a914347ae\"><span style=\"font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;\"><span class=\"iNqyIf\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">Bảo hành uy tín, đổi mới dễ dàng:</strong> Bảo hành phần cứng từ 12 – 24 tháng, hỗ trợ <strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">1 đổi 1 trong 15 ngày đầu</strong> nếu có lỗi từ nhà sản xuất.</span></span></li><li class=\"Z1qcYe ck-list-marker-font-size ck-list-marker-font-family\" style=\"--ck-content-list-marker-font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;--ck-content-list-marker-font-size:16px;border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:0px 0px 12px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAN\" data-complete=\"true\" data-sae=\"\" data-list-item-id=\"eae4478248ad62f81bfc25ac4fb302ad4\"><span style=\"font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;\"><span class=\"iNqyIf\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">Trả góp linh hoạt, duyệt nhanh:</strong> Hỗ trợ trả góp 0% lãi suất qua thẻ tín dụng hoặc duyệt hồ sơ CCCD chỉ trong 15 phút (bạn có thể tính trước số tiền ngay tại mục </span><em class=\"zhvwWe\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\"><i><span class=\"iNqyIf\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">Dự toán trả góp</span></i></em><span class=\"iNqyIf\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\"> trên thanh menu).</span></span></li><li class=\"Z1qcYe ck-list-marker-font-size ck-list-marker-font-family\" style=\"--ck-content-list-marker-font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;--ck-content-list-marker-font-size:16px;border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:0px 0px 12px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAO\" data-complete=\"true\" data-sae=\"\" data-list-item-id=\"ebf2fcf0f2094eee449dcb04e43d4345a\"><span style=\"font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;\"><span class=\"iNqyIf\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">Quà tặng &amp; Hậu mãi trọn đời:</strong> Tặng bộ phụ kiện trị giá 800.000đ khi mua máy; miễn phí cài đặt phần mềm, vệ sinh laptop và tra keo tản nhiệt trọn đời.</span></span></li><li class=\"Z1qcYe ck-list-marker-font-size ck-list-marker-font-family\" style=\"--ck-content-list-marker-font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;--ck-content-list-marker-font-size:16px;border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAP\" data-complete=\"true\" data-sae=\"\" data-list-item-id=\"e79bba46cf9a42d3a2bae391835d3ebb0\"><span style=\"font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;\"><span class=\"iNqyIf\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">Giao hàng hỏa tốc toàn quốc:</strong> Miễn phí giao hàng nội thành trong 2 giờ, khách hàng được kiểm tra máy thoải mái trước khi thanh toán.</span></span></li></ul><div class=\"n6owBd awi2gc\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:12px 0px 16px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAQ\" data-complete=\"true\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">Thông tin liên hệ &amp; Hệ thống cửa hàng</strong></div><ul class=\"XSq4R KI3fJ\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:12px 0px 16px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAR\" data-complete=\"true\"><li class=\"Z1qcYe ck-list-marker-font-size ck-list-marker-font-family\" style=\"--ck-content-list-marker-font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;--ck-content-list-marker-font-size:16px;border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:0px 0px 12px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAS\" data-complete=\"true\" data-sae=\"\" data-list-item-id=\"e0a5c5f30b11fa7e55bccf0d282c6f9e6\"><span style=\"font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;\"><span class=\"iNqyIf\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">Địa chỉ Showroom:</strong> &#91;Điền địa chỉ cửa hàng của bạn tại đây&#93;</span></span></li><li class=\"Z1qcYe ck-list-marker-font-size ck-list-marker-font-family\" style=\"--ck-content-list-marker-font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;--ck-content-list-marker-font-size:16px;border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:0px 0px 12px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAT\" data-complete=\"true\" data-sae=\"\" data-list-item-id=\"ece897e2ee7eab36f957a88f88ec9b607\"><span style=\"font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;\"><span class=\"iNqyIf\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">Hotline tư vấn &amp; Bán hàng:</strong> 0976.370.125 (Hỗ trợ từ 8:00 – 21:30 hàng ngày)</span></span></li><li class=\"Z1qcYe ck-list-marker-font-size ck-list-marker-font-family\" style=\"--ck-content-list-marker-font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;--ck-content-list-marker-font-size:16px;border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAU\" data-complete=\"true\" data-sae=\"\" data-list-item-id=\"e80cd8edd0660ddf71bbeabb193ad09fd\"><span style=\"font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;\"><span class=\"iNqyIf\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\" aria-owns=\"action-menu-parent-container\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">Email hỗ trợ:</strong> laptopvn@gmail.com</span></span></li></ul>', 'giới thiệu', 0, '4', '', 1, 1, 1795017340, 1795024130, 1, 1, 0),
+(1, 'Giới thiệu về LaptopStore', 'gioi-thieu-ve-laptopstore', '', '', 0, '', '<div class=\"n6owBd awi2gc\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:0px 0px 16px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAB\" data-complete=\"true\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">LaptopStore – Hệ thống bán lẻ Laptop Chính hãng &amp; Giá tốt hàng đầu</strong></div><div class=\"n6owBd awi2gc\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:12px 0px 16px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAC\" data-complete=\"true\">Chào mừng bạn đến với <strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">LaptopStore</strong>! Chúng tôi tự hào là đơn vị chuyên phân phối các dòng máy tính xách tay chính hãng từ những thương hiệu hàng đầu thế giới như ASUS, Dell, Apple MacBook, Lenovo, Acer, MSI và HP. Với phương châm <em class=\"zhvwWe\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\"><i>&quot;Chất lượng thật - Giá trị thật&quot;</i></em>, LaptopStore luôn nỗ lực mang đến giải pháp công nghệ tối ưu nhất cho sinh viên, nhân viên văn phòng, lập trình viên và game thủ.</div><div class=\"n6owBd awi2gc\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:12px 0px 16px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAD\" data-complete=\"true\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">Các dòng sản phẩm chủ lực tại cửa hàng</strong></div><ul class=\"XSq4R KI3fJ\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:12px 0px 16px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAE\" data-complete=\"true\"><li class=\"Z1qcYe ck-list-marker-font-size ck-list-marker-font-family\" style=\"--ck-content-list-marker-font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;--ck-content-list-marker-font-size:16px;border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:0px 0px 12px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAF\" data-complete=\"true\" data-sae=\"\" data-list-item-id=\"e4e8e71b9ad91f019eb1f7dbcbb4b0bc0\"><span style=\"font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;\"><span class=\"iNqyIf\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">Laptop Gaming &amp; Đồ họa:</strong> Cấu hình cực khủng, tản nhiệt mát mẻ, màn hình tần số quét cao chuyên trị game nặng và dựng hình 3D.</span></span></li><li class=\"Z1qcYe ck-list-marker-font-size ck-list-marker-font-family\" style=\"--ck-content-list-marker-font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;--ck-content-list-marker-font-size:16px;border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:0px 0px 12px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAG\" data-complete=\"true\" data-sae=\"\" data-list-item-id=\"e6d249c5b416eb038fbde5772ba25a6fa\"><span style=\"font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;\"><span class=\"iNqyIf\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">Laptop Học tập - Văn phòng:</strong> Thiết kế mỏng nhẹ, vỏ kim loại sang trọng, thời lượng pin bền bỉ cả ngày làm việc.</span></span></li><li class=\"Z1qcYe ck-list-marker-font-size ck-list-marker-font-family\" style=\"--ck-content-list-marker-font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;--ck-content-list-marker-font-size:16px;border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:0px 0px 12px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAH\" data-complete=\"true\" data-sae=\"\" data-list-item-id=\"e138f26dd6e5ddc2f9873f64b61394865\"><span style=\"font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;\"><span class=\"iNqyIf\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">Apple MacBook Chính hãng:</strong> Đầy đủ các phiên bản MacBook Air và MacBook Pro chip M-series mới nhất, nguyên seal.</span></span></li><li class=\"Z1qcYe ck-list-marker-font-size ck-list-marker-font-family\" style=\"--ck-content-list-marker-font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;--ck-content-list-marker-font-size:16px;border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAI\" data-complete=\"true\" data-sae=\"\" data-list-item-id=\"e8ddc8f547a7b60415dc3d7aa156044a0\"><span style=\"font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;\"><span class=\"iNqyIf\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">Linh kiện &amp; Phụ kiện:</strong> Nâng cấp RAM, ổ cứng SSD lấy ngay, cung cấp chuột, bàn phím cơ và balo chống sốc.</span></span></li></ul><div class=\"n6owBd awi2gc\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:12px 0px 16px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAJ\" data-complete=\"true\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">5 Đặc quyền mua sắm chỉ có tại LaptopStore</strong></div><ul class=\"XSq4R KI3fJ\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:12px 0px 16px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAK\" data-complete=\"true\"><li class=\"Z1qcYe ck-list-marker-font-size ck-list-marker-font-family\" style=\"--ck-content-list-marker-font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;--ck-content-list-marker-font-size:16px;border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:0px 0px 12px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAL\" data-complete=\"true\" data-sae=\"\" data-list-item-id=\"e50ac8e9daf42969ebc7709c33c9f3d28\"><span style=\"font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;\"><span class=\"iNqyIf\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">Hàng chuẩn chính hãng 100%:</strong> Đầy đủ hộp, phụ kiện zin và giấy tờ chứng nhận nguồn gốc xuất xứ rõ ràng.</span></span></li><li class=\"Z1qcYe ck-list-marker-font-size ck-list-marker-font-family\" style=\"--ck-content-list-marker-font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;--ck-content-list-marker-font-size:16px;border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:0px 0px 12px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAM\" data-complete=\"true\" data-sae=\"\" data-list-item-id=\"e7db370e26c47e31ff310190a914347ae\"><span style=\"font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;\"><span class=\"iNqyIf\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">Bảo hành uy tín, đổi mới dễ dàng:</strong> Bảo hành phần cứng từ 12 – 24 tháng, hỗ trợ <strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">1 đổi 1 trong 15 ngày đầu</strong> nếu có lỗi từ nhà sản xuất.</span></span></li><li class=\"Z1qcYe ck-list-marker-font-size ck-list-marker-font-family\" style=\"--ck-content-list-marker-font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;--ck-content-list-marker-font-size:16px;border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:0px 0px 12px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAN\" data-complete=\"true\" data-sae=\"\" data-list-item-id=\"eae4478248ad62f81bfc25ac4fb302ad4\"><span style=\"font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;\"><span class=\"iNqyIf\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">Trả góp linh hoạt, duyệt nhanh:</strong> Hỗ trợ trả góp 0% lãi suất qua thẻ tín dụng hoặc duyệt hồ sơ CCCD chỉ trong 15 phút (bạn có thể tính trước số tiền ngay tại mục </span><em class=\"zhvwWe\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\"><i><span class=\"iNqyIf\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">Dự toán trả góp</span></i></em><span class=\"iNqyIf\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\"> trên thanh menu).</span></span></li><li class=\"Z1qcYe ck-list-marker-font-size ck-list-marker-font-family\" style=\"--ck-content-list-marker-font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;--ck-content-list-marker-font-size:16px;border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:0px 0px 12px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAO\" data-complete=\"true\" data-sae=\"\" data-list-item-id=\"ebf2fcf0f2094eee449dcb04e43d4345a\"><span style=\"font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;\"><span class=\"iNqyIf\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">Quà tặng &amp; Hậu mãi trọn đời:</strong> Tặng bộ phụ kiện trị giá 800.000đ khi mua máy; miễn phí cài đặt phần mềm, vệ sinh laptop và tra keo tản nhiệt trọn đời.</span></span></li><li class=\"Z1qcYe ck-list-marker-font-size ck-list-marker-font-family\" style=\"--ck-content-list-marker-font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;--ck-content-list-marker-font-size:16px;border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAP\" data-complete=\"true\" data-sae=\"\" data-list-item-id=\"e79bba46cf9a42d3a2bae391835d3ebb0\"><span style=\"font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;\"><span class=\"iNqyIf\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">Giao hàng hỏa tốc toàn quốc:</strong> Miễn phí giao hàng nội thành trong 2 giờ, khách hàng được kiểm tra máy thoải mái trước khi thanh toán.</span></span></li></ul><div class=\"n6owBd awi2gc\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:12px 0px 16px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAQ\" data-complete=\"true\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">Thông tin liên hệ &amp; Hệ thống cửa hàng</strong></div><ul class=\"XSq4R KI3fJ\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:12px 0px 16px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAR\" data-complete=\"true\"><li class=\"Z1qcYe ck-list-marker-font-size ck-list-marker-font-family\" style=\"--ck-content-list-marker-font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;--ck-content-list-marker-font-size:16px;border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:0px 0px 12px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAS\" data-complete=\"true\" data-sae=\"\" data-list-item-id=\"e0a5c5f30b11fa7e55bccf0d282c6f9e6\"><span style=\"font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;\"><span class=\"iNqyIf\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">Địa chỉ Showroom:</strong> &#91;Điền địa chỉ cửa hàng của bạn tại đây&#93;</span></span></li><li class=\"Z1qcYe ck-list-marker-font-size ck-list-marker-font-family\" style=\"--ck-content-list-marker-font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;--ck-content-list-marker-font-size:16px;border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:0px 0px 12px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAT\" data-complete=\"true\" data-sae=\"\" data-list-item-id=\"ece897e2ee7eab36f957a88f88ec9b607\"><span style=\"font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;\"><span class=\"iNqyIf\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">Hotline tư vấn &amp; Bán hàng:</strong> 0976.370.125 (Hỗ trợ từ 8:00 – 21:30 hàng ngày)</span></span></li><li class=\"Z1qcYe ck-list-marker-font-size ck-list-marker-font-family\" style=\"--ck-content-list-marker-font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;--ck-content-list-marker-font-size:16px;border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-hveid=\"CAAIEhAU\" data-complete=\"true\" data-sae=\"\" data-list-item-id=\"e80cd8edd0660ddf71bbeabb193ad09fd\"><span style=\"font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;\"><span class=\"iNqyIf\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-weight:400;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\" aria-owns=\"action-menu-parent-container\"><strong class=\"rQesXe MPyX\" style=\"border-bottom-color:rgb(232, 234, 242);border-bottom-width:0px;font-family:&#039;Google Sans&#039;, Arial, sans-serif, &#039;Noto Color Emoji&#039;;font-size:16px;margin:0px;text-decoration:none;\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-complete=\"true\">Email hỗ trợ:</strong> laptopvn@gmail.com</span></span></li></ul>', 'giới thiệu', 0, '4', '', 1, 1, 1795017340, 1795024130, 1, 4, 0),
 (2, 'Chính sách bảo hành đổi trả', 'gioi-thieu-ve-nukeviet-cms', '', '', 0, '', '<p>CMS là gì?<br />CMS là từ viết tắt từ Content Management System. Theo wikipedia</p><blockquote><p><strong>Định nghĩa.</strong><br />Hệ quản trị nội dung, cũng được gọi là hệ thống quản lý nội dung hay CMS (từ Content Management System của tiếng Anh) là phần mềm để tổ chức và tạo môi trường cộng tác thuận lợi nhằm mục đích xây dựng một hệ thống tài liệu và các loại nội dung khác một cách thống nhất. Mới đây thuật ngữ này liên kết với chương trình quản lý nội dung của website. Quản lý nội dung web (web content management) cũng đồng nghĩa như vậy.<br /><br /><span class=\"mw-headline\" id=\"Ch.E1.BB.A9c_n.C4.83ng\"><strong>Chức năng</strong>.</span><br />Quản trị những nội dung tài liệu điện tử (bao gồm những tài liệu, văn bản số và đã được số hoá) của tổ chức. Những chức năng bao gồm:</p><ul><li data-list-item-id=\"e08762618ef2d600573cd486c6b287664\">Tạo lập nội dung;</li><li data-list-item-id=\"e9672acfb00d879a8858e00e84ceebe3d\">Lưu trữ nội dung;</li><li data-list-item-id=\"e40f2379925b02d518722e03131cdd22c\">Chỉnh sửa nội dung;</li><li data-list-item-id=\"e6d8e21cd30eea4053159a27838ed1975\">Chuyển tải nội dung;</li><li data-list-item-id=\"eca315ac00a34e535a0aa1457bf88915a\">Chia sẻ nội dung;</li><li data-list-item-id=\"e3901b3d4ffe7b0b1ddb0bdc0e6e6f047\">Tìm kiếm nội dung;</li><li data-list-item-id=\"e80f5a3f26b7c73856c9b18ab4e551cdd\">Phân quyền người dùng và nội dung...</li></ul><p><strong>Đặc điểm.</strong><br />Các đặc điểm cơ bản của CMS bao gồm:</p><ul><li data-list-item-id=\"eedd15a824b1f972be6d0fdcb15d74f06\">Phê chuẩn việc tạo hoặc thay đổi nội dung trực tuyến</li><li data-list-item-id=\"e6bf790b8384652fd0bed3c750ba1deb7\">Chế độ Soạn thảo &quot;Nhìn là biết&quot; WYSIWYG</li><li data-list-item-id=\"e27f4a8852b7efcd70a31c4f5694029d2\">Quản lý người dùng</li><li data-list-item-id=\"ef05c9b388f58fb0ad8556bdaabb8e59a\">Tìm kiếm và lập chỉ mục</li><li data-list-item-id=\"efd3fc74a4b414cfd63f1807cfcced27d\">Lưu trữ</li><li data-list-item-id=\"ee4f9260924076c1dd412f3b4a8d2830a\">Tùy biến giao diện</li><li data-list-item-id=\"e8a186248a410e7bc9d71b5f9fa36be9a\">Quản lý ảnh và các liên kết (URL)</li></ul></blockquote><p><br />NukeViet CMS là một <strong>hệ quản trị nội dung</strong> (<i>Content Management System - CMS</i>) cho phép bạn quản lý các cổng thông tin điện tử trên Internet. Nói đơn giản, NukeViet giống như một phần mềm giúp bạn<strong> xây dựng</strong> và <strong>vận hành</strong> các trang web của mình một cách dễ dàng nhất.</p><p>NukeViet CMS là một phần mềm <strong>mã nguồn mở</strong>, do đó việc sử dụng <strong>hoàn toàn miễn phí</strong>, bạn có thể tải NukeViet CMS về bất cứ lúc nào tại website chính thức của NukeViet là <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://nukeviet.vn\"><strong>nukeviet.vn</strong></a>. Bạn có thể cài NukeViet lên hosting để sử dụng hoặc cũng có thể thử nghiệm bằng cách cài ngay lên máy tính cá nhân.</p><p>NukeViet cho phép xây dựng một website động, đa chức năng, hiện đại một cách nhanh chóng mà người vận hành nó thậm chí <strong>không cần phải biết một tí gì về lập trình</strong> bởi tất cả các tác vụ quản lý phức tạp đều được tự động hóa ở mức cao. NukeViet đặc biệt dễ dàng sử dụng vì hoàn toàn bằng tiếng Việt và được thiết kế phù hợp nhất với thói quen sử dụng mạng của <strong>người Việt Nam</strong>.</p><p>Bằng việc sử dụng các công nghệ web mới nhất hiện nay, thiết kế hệ thống uyển chuyển và sở hữu những tính năng độc đáo, NukeViet sẽ giúp bạn triển khai các ứng dụng web từ nhỏ đến lớn một cách nhanh chóng và tiết kiệm: từ các website cá nhân cho tới các cổng thông tin điện tử; từ các gian hàng trực tuyến cho tới các mạng xã hội...</p><p>NukeViet là CMS <strong>mã nguồn mở đầu tiên của Việt Nam</strong> có quá trình phát triển lâu dài nhất, có lượng người sử dụng đông nhất. Hiện NukeViet cũng là một trong những mã nguồn mở chuyên nghiệp đầu tiên của Việt Nam, cơ quan chủ quản của NukeViet là <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://vinades.vn\">VINADES.,JSC</a> - đơn vị chịu trách nhiệm phát triển NukeViet và triển khai NukeViet thành các ứng dụng cụ thể cho doanh nghiệp.</p>', '', 0, '4', '', 2, 1, 1795017340, 1795024200, 1, 1, 0),
 (3, 'Hướng dẫn mua Laptop trả góp', 'logo-va-ten-goi-nukeviet', '', '', 0, '', '<p><span style=\"color:rgb(255,0,0);font-size:14px;\"><strong>Tên gọi:</strong></span><br /><strong>NukeViet </strong>phát âm là <strong>&#91;Nu-Ke-Việt</strong>&#93;, đây là cách đọc riêng, không phải là cách phát âm chuẩn của tiếng Anh.<br /><br /><strong>Ý nghĩa:</strong><br />NukeViet là từ ghép từ chữ <strong>Nuke </strong>và <strong>Việt Nam</strong>.<br /><br />Sở dĩ có tên gọi này là vì phiên bản 1.0 và 2.0 của NukeViet được phát triển từ mã nguồn mở<strong> PHP-Nuke</strong>.</p><p>Mặc dù từ phiên bản 3.0, NukeViet được viết mới hoàn toàn và trong quá trình phát triển của mình, nhiều cái tên đã được đưa ra để thay thế nhưng cuối cùng cái tên NukeViet đã được giữ lại để nhớ rằng <strong>NukeViet </strong>được khởi đầu từ <strong>PHP-Nuke</strong> và để cảm ơn <strong>Franscisco Burzi</strong> - Tác giả PHP-Nuke - vì chính ông là nhân tố để có một cộng đồng mã nguồn mở NukeViet với hàng chục ngàn người dùng như hiện nay.</p><p><strong>Nuke</strong> trong tiếng Anh (từ lóng) có nghĩa là &quot;<strong>vũ khí hạt nhân</strong>&quot; (nuclear weapons). Xem: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://vi.wiktionary.org/wiki/nuke\">http://vi.wiktionary.org/wiki/nuke</a></p><p>Đội ngũ phát triển cũng hy vọng rằng <strong>NukeViet </strong>sẽ phát triển bùng nổ như đúng tên gọi của nó.</p><p><span style=\"color:rgb(255,0,0);font-size:14px;\"><strong>Logo NukeViet 3.0:</strong></span><br />Sau thời gian dài lựa chọn từ hàng chục mẫu thiết kế của thành viên diễn đàn NukeViet.VN và các nhà thiết kế đồ họa chuyên nghiệp... logo chính thức của NukeViet 3.0 đã được Ban Quản Trị chọn lựa đúng trước ngày Offline phát hành bản NukeViet 3.0 một ngày.<br /><br />Logo NukeViet 3.0 được lấy hình tượng từ Biển, Đêm, và Ánh Trăng trong khung hình giọt nước:</p><p style=\"text-align:center;\"><img style=\"border-style:solid;border-width:0px;\" src=\"/nukeviet/NukeViet/nukeviet/uploads/about/w.png\" alt=\"w\" width=\"288\" height=\"143\" /></p><p>Dưới nền trắng, cả logo nhìn như cảnh biển đêm huyền ảo, tĩnh mịch với mặt nước biển, bầu trời, thuyền buồm và ánh trăng. Đây là những hình ảnh biểu tượng cho sự thanh bình mà bất cứ ai cũng mong ước được thấy khi ngắm biển về đêm.<br /><br />Màu xanh thẫm là màu hòa quyện của của mặt biển, bầu trời về đêm, màu này cũng gần với màu xanh tượng trưng cho hòa bình.<br />Hai vệt khuyết chính là ánh trăng sáng màu bạc phản chiếu lên giọt nước.<br /><br />Giọt nước còn là biểu tượng cho sự sống, cho khát khao bất diệt của vạn vật trên trái đất này.<br /><br /><strong>Thông số chuẩn của màu logo:</strong><br />-&nbsp;&nbsp;&nbsp; Màu xanh: C80, M60, Y0, K0<br /><br /><strong>Tác giả mẫu thiết kế:</strong> Lê Thanh Xuân, chuyên viên thiết kế đồ họa của VINADES.,JSC</p><p><span style=\"color:rgb(255,0,0);font-size:14px;\"><strong>Slogan NukeViet 3.0:</strong></span> “Chia sẻ thành công, kết nối đam mê”, Tiếng Anh: “Sharing success, connect passions”</p><p>Slogan này của tác giả HoaiNamDr, đây là slogan đã đoạt giải trong cuộc thi sáng tác slogan trên diễn đàn NukeViet.VN</p><div style=\"text-align:center;\"><img src=\"/nukeviet/NukeViet/nukeviet/uploads/about/nukevietcms-180x84.png\" alt=\"nukevietcms 180x84\" width=\"180\" height=\"84\" /></div><p style=\"text-align:center;\">Mẫu phối Logo, slogan và tên NukeViet CMS (180x84px)<br />Tải về mẫu kích thước lớn <a href=\"/nukeviet/NukeViet/nukeviet/uploads/about/nukevietcms.png\">logo-nukeviet-cms.png</a> (1500x700px)</p><div style=\"text-align:center;\"><img src=\"/nukeviet/NukeViet/nukeviet/uploads/about/nukevietcms_mu_noel_180x84.png\" alt=\"nukevietcms mu noel 180x84\" width=\"180\" height=\"84\" /></div><p style=\"text-align:center;\">Mẫu phối Logo, slogan và tên NukeViet CMS với chiếc mũ ông già Noel (184x84px)<br />&nbsp;</p><div style=\"text-align:center;\"><img src=\"/nukeviet/NukeViet/nukeviet/uploads/about/logo-nukeviet3-flag-180x75.png\" alt=\"logo nukeviet3 flag 180x75\" width=\"180\" height=\"75\" /></div><p style=\"text-align:center;\">Mẫu phối Logo, slogan và tên NukeViet CMS cắm cờ Việt Nam (180x75px)<br />&nbsp;</p><div style=\"text-align:center;\"><img src=\"/nukeviet/NukeViet/nukeviet/uploads/about/nukevietcms_laco_180x57.png\" alt=\"nukevietcms laco 180x57\" width=\"180\" height=\"57\" /></div><p style=\"text-align:center;\">Mẫu phối Logo, slogan và tên NukeViet CMS với chiếc ruy băng cờ Việt Nam (180x57px)</p><div style=\"text-align:center;\"><img src=\"/nukeviet/NukeViet/nukeviet/uploads/about/nukevietvn_180x84.png\" alt=\"nukevietvn 180x84\" width=\"180\" height=\"84\" /></div><p style=\"text-align:center;\">Mẫu phối Logo, slogan và tên NukeViet.VN (180x84px)<br />Tải về mẫu kích thước lớn <a href=\"/nukeviet/NukeViet/nukeviet/uploads/about/nukevietvn.png\">logo-nukeviet-big.png</a> (1500x700px)</p><p><br /><strong>Tải về file đồ họa gốc:</strong><br />- <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://nukeviet.vn/vi/download/Tai-lieu/NukeViet-logo/\">NukeViet logo</a> - hình ảnh gốc có độ phân giải cao, bao gồm cả font chữ, có thể sử dụng cho in ấn sticker, in logo lên áo hoặc in Backdrop, Standy khổ lớn.</p>', 'hướng dẫn', 0, '4', '', 3, 1, 1795017340, 1795024217, 1, 1, 0);
 INSERT INTO `nv4_vi_about` (`id`, `title`, `alias`, `image`, `imagealt`, `imageposition`, `description`, `bodytext`, `keywords`, `socialbutton`, `activecomm`, `layout_func`, `weight`, `admin_id`, `add_time`, `edit_time`, `status`, `hitstotal`, `hot_post`) VALUES
@@ -3234,9 +3233,8 @@ INSERT INTO `nv4_vi_blocks_groups` (`bid`, `theme`, `module`, `file_name`, `titl
 (29, 'mobile_default', 'theme', 'global.menu_footer.php', 'Các chuyên mục chính', '', 'primary', '[MENU_FOOTER]', 0, '1', 1, '6', 1, 1, 'a:1:{s:14:\"module_in_menu\";a:9:{i:0;s:5:\"about\";i:1;s:4:\"news\";i:2;s:5:\"users\";i:3;s:7:\"contact\";i:4;s:6:\"voting\";i:5;s:7:\"banners\";i:6;s:4:\"seek\";i:7;s:5:\"feeds\";i:8;s:9:\"siteterms\";}}'),
 (30, 'mobile_default', 'theme', 'global.company_info.php', 'Công ty chủ quản', '', 'primary', '[COMPANY_INFO]', 0, '1', 1, '6', 1, 1, 'a:13:{s:12:\"company_name\";s:58:\"Công ty cổ phần phát triển nguồn mở Việt Nam\";s:15:\"company_address\";s:98:\"Tầng 6, tòa nhà Sông Đà, Số 131 Trần Phú, Phường Hà Đông, Thành phố Hà Nội\";s:16:\"company_sortname\";s:12:\"VINADES.,JSC\";s:15:\"company_regcode\";s:0:\"\";s:16:\"company_regplace\";s:0:\"\";s:21:\"company_licensenumber\";s:0:\"\";s:22:\"company_responsibility\";s:0:\"\";s:15:\"company_showmap\";i:1;s:14:\"company_mapurl\";s:312:\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d427.01613794022035!2d105.78849184070538!3d20.979995366268337!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac93055e2f2f%3A0x91f4b423089193dd!2zQ8O0bmcgdHkgQ-G7lSBwaOG6p24gUGjDoXQgdHJp4buDbiBOZ3Xhu5NuIG3hu58gVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1701239622249!5m2!1svi!2s\";s:13:\"company_phone\";s:30:\"+84-24-85872007[+842485872007]\";s:11:\"company_fax\";s:15:\"+84-24-35500914\";s:13:\"company_email\";s:18:\"contact@vinades.vn\";s:15:\"company_website\";s:18:\"https://vinades.vn\";}'),
 (31, 'default', 'shops', 'global.block_catalogs.php', 'Danh mục Laptop', '', '', '[LEFT]', 0, '1', 1, '6', 1, 3, 'a:1:{s:7:\"cut_num\";i:24;}'),
-(32, 'default', 'shops', 'global.block_cart.php', 'Giỏ hàng của bạn', '', '', '[LEFT]', 0, '1', 1, '6', 1, 4, ''),
-(33, 'default', 'shops', 'global.block_search.php', 'Tìm kiếm sản phẩm', '', '', '[LEFT]', 0, '1', 1, '6', 1, 5, ''),
-(34, 'default', 'theme', 'global.social.php', 'CHÍNH SÁCH KHÁCH HÀNG', '', '', '[FEATURED_PRODUCT]', 0, '1', 1, '6', 1, 1, 'a:3:{s:8:\"facebook\";s:33:\"https://www.facebook.com/nukeviet\";s:7:\"youtube\";s:37:\"https://www.youtube.com/user/nukeviet\";s:7:\"twitter\";s:28:\"https://twitter.com/nukeviet\";}');
+(34, 'default', 'theme', 'global.social.php', 'CHÍNH SÁCH KHÁCH HÀNG', '', '', '[FEATURED_PRODUCT]', 0, '1', 1, '6', 1, 1, 'a:3:{s:8:\"facebook\";s:33:\"https://www.facebook.com/nukeviet\";s:7:\"youtube\";s:37:\"https://www.youtube.com/user/nukeviet\";s:7:\"twitter\";s:28:\"https://twitter.com/nukeviet\";}'),
+(35, 'default', 'about', 'global.page_list.php', 'GIới thiệu chung', '', '', '[LEFT]', 0, '1', 1, '6', 0, 4, 'a:2:{s:12:\"title_length\";i:0;s:6:\"numrow\";i:5;}');
 
 -- --------------------------------------------------------
 
@@ -4844,138 +4842,6 @@ INSERT INTO `nv4_vi_blocks_weight` (`bid`, `func_id`, `weight`) VALUES
 (31, 66, 1),
 (31, 65, 1),
 (31, 94, 1),
-(32, 1, 2),
-(32, 4, 3),
-(32, 5, 3),
-(32, 6, 3),
-(32, 7, 3),
-(32, 8, 3),
-(32, 9, 3),
-(32, 10, 3),
-(32, 11, 3),
-(32, 12, 3),
-(32, 13, 2),
-(32, 19, 3),
-(32, 20, 3),
-(32, 21, 3),
-(32, 22, 3),
-(32, 23, 3),
-(32, 24, 3),
-(32, 25, 3),
-(32, 26, 3),
-(32, 27, 3),
-(32, 28, 3),
-(32, 29, 3),
-(32, 31, 2),
-(32, 32, 3),
-(32, 33, 3),
-(32, 34, 3),
-(32, 35, 3),
-(32, 36, 3),
-(32, 37, 3),
-(32, 38, 3),
-(32, 39, 2),
-(32, 40, 2),
-(32, 41, 2),
-(32, 42, 2),
-(32, 43, 2),
-(32, 49, 2),
-(32, 50, 2),
-(32, 51, 2),
-(32, 54, 2),
-(32, 55, 2),
-(32, 56, 2),
-(32, 57, 2),
-(32, 58, 2),
-(32, 59, 2),
-(32, 60, 2),
-(32, 62, 2),
-(32, 63, 2),
-(32, 64, 2),
-(32, 76, 2),
-(32, 91, 2),
-(32, 71, 2),
-(32, 85, 2),
-(32, 67, 2),
-(32, 77, 2),
-(32, 78, 2),
-(32, 74, 2),
-(32, 73, 2),
-(32, 69, 2),
-(32, 92, 2),
-(32, 90, 2),
-(32, 79, 2),
-(32, 88, 2),
-(32, 72, 2),
-(32, 66, 2),
-(32, 65, 2),
-(32, 94, 2),
-(33, 1, 3),
-(33, 4, 4),
-(33, 5, 4),
-(33, 6, 4),
-(33, 7, 4),
-(33, 8, 4),
-(33, 9, 4),
-(33, 10, 4),
-(33, 11, 4),
-(33, 12, 4),
-(33, 13, 3),
-(33, 19, 4),
-(33, 20, 4),
-(33, 21, 4),
-(33, 22, 4),
-(33, 23, 4),
-(33, 24, 4),
-(33, 25, 4),
-(33, 26, 4),
-(33, 27, 4),
-(33, 28, 4),
-(33, 29, 4),
-(33, 31, 3),
-(33, 32, 4),
-(33, 33, 4),
-(33, 34, 4),
-(33, 35, 4),
-(33, 36, 4),
-(33, 37, 4),
-(33, 38, 4),
-(33, 39, 3),
-(33, 40, 3),
-(33, 41, 3),
-(33, 42, 3),
-(33, 43, 3),
-(33, 49, 3),
-(33, 50, 3),
-(33, 51, 3),
-(33, 54, 3),
-(33, 55, 3),
-(33, 56, 3),
-(33, 57, 3),
-(33, 58, 3),
-(33, 59, 3),
-(33, 60, 3),
-(33, 62, 3),
-(33, 63, 3),
-(33, 64, 3),
-(33, 76, 3),
-(33, 91, 3),
-(33, 71, 3),
-(33, 85, 3),
-(33, 67, 3),
-(33, 77, 3),
-(33, 78, 3),
-(33, 74, 3),
-(33, 73, 3),
-(33, 69, 3),
-(33, 92, 3),
-(33, 90, 3),
-(33, 79, 3),
-(33, 88, 3),
-(33, 72, 3),
-(33, 66, 3),
-(33, 65, 3),
-(33, 94, 3),
 (34, 1, 1),
 (34, 4, 1),
 (34, 5, 1),
@@ -5041,7 +4907,36 @@ INSERT INTO `nv4_vi_blocks_weight` (`bid`, `func_id`, `weight`) VALUES
 (34, 72, 1),
 (34, 66, 1),
 (34, 65, 1),
-(34, 94, 1);
+(34, 94, 1),
+(35, 1, 2),
+(35, 4, 3),
+(35, 5, 3),
+(35, 6, 3),
+(35, 7, 3),
+(35, 8, 3),
+(35, 9, 3),
+(35, 10, 3),
+(35, 11, 3),
+(35, 12, 3),
+(35, 13, 2),
+(35, 31, 2),
+(35, 76, 2),
+(35, 91, 2),
+(35, 71, 2),
+(35, 85, 2),
+(35, 67, 2),
+(35, 77, 2),
+(35, 78, 2),
+(35, 74, 2),
+(35, 73, 2),
+(35, 69, 2),
+(35, 92, 2),
+(35, 90, 2),
+(35, 79, 2),
+(35, 88, 2),
+(35, 72, 2),
+(35, 66, 2),
+(35, 65, 2);
 
 -- --------------------------------------------------------
 
@@ -5563,7 +5458,7 @@ INSERT INTO `nv4_vi_modthemes` (`func_id`, `layout`, `theme`) VALUES
 (92, 'left-main', 'default'),
 (92, 'main', 'mobile_default'),
 (93, 'left-main-right', 'default'),
-(94, 'left-main', 'default'),
+(94, 'main', 'default'),
 (94, 'main', 'mobile_default');
 
 -- --------------------------------------------------------
@@ -6687,7 +6582,9 @@ INSERT INTO `nv4_vi_tragop_orders` (`id`, `customer_name`, `customer_phone`, `la
 (3, 'Hieu vui ve', '0976370126', 'Laptop 100', 20000000, 30, 12, 1166667, 1795021538),
 (4, 'Hieu vui ve', '0976370126', 'Laptop 100', 20000000, 30, 12, 1166667, 1795021702),
 (5, 'Hieu vui ve', '0976370126', 'Laptop 100', 20000000, 30, 12, 1166667, 1795021710),
-(6, 'Hieu vui ve', '0976370126', 'Laptop 100', 20000000, 30, 12, 1166667, 1795022866);
+(6, 'Hieu vui ve', '0976370126', 'Laptop 100', 20000000, 30, 12, 1166667, 1795022866),
+(7, 'Hieu vui ve', '0976370126', 'lop', 20000000, 30, 12, 0, 1795060845),
+(8, 'Hieu vui ve', '0976370126', 'MacBook Pro 14 M3 Pro (18GB / 512GB SSD)', 47990000, 40, 9, 3199333, 1795541951);
 
 -- --------------------------------------------------------
 
@@ -7823,7 +7720,7 @@ ALTER TABLE `nv4_language_file`
 -- AUTO_INCREMENT cho bảng `nv4_logs`
 --
 ALTER TABLE `nv4_logs`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=48;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=63;
 
 --
 -- AUTO_INCREMENT cho bảng `nv4_notification`
@@ -8069,7 +7966,7 @@ ALTER TABLE `nv4_vi_about`
 -- AUTO_INCREMENT cho bảng `nv4_vi_blocks_groups`
 --
 ALTER TABLE `nv4_vi_blocks_groups`
-  MODIFY `bid` mediumint(8) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
+  MODIFY `bid` mediumint(8) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
 
 --
 -- AUTO_INCREMENT cho bảng `nv4_vi_comment`
@@ -8249,7 +8146,7 @@ ALTER TABLE `nv4_vi_siteterms`
 -- AUTO_INCREMENT cho bảng `nv4_vi_tragop_orders`
 --
 ALTER TABLE `nv4_vi_tragop_orders`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT cho bảng `nv4_vi_voting`
