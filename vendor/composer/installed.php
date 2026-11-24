@@ -3,7 +3,7 @@
         'name' => 'nukeviet/nukeviet',
         'pretty_version' => '4.6.00',
         'version' => '4.6.00.0',
-        'reference' => null,
+        'reference' => NULL,
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -49,7 +49,7 @@
         'nukeviet/nukeviet' => array(
             'pretty_version' => '4.6.00',
             'version' => '4.6.00.0',
-            'reference' => null,
+            'reference' => NULL,
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

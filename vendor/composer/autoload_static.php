@@ -17,36 +17,36 @@ class ComposerStaticInit261687c3e3cd870899aff0ad8589f210
     );
 
     public static $prefixLengthsPsr4 = array (
-        'S' =>
+        'S' => 
         array (
             'Symfony\\Polyfill\\Php80\\' => 23,
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Polyfill\\Intl\\Normalizer\\' => 33,
             'Symfony\\Polyfill\\Intl\\Idn\\' => 26,
         ),
-        'P' =>
+        'P' => 
         array (
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Http\\Client\\' => 16,
             'PHPMailer\\PHPMailer\\' => 20,
         ),
-        'N' =>
+        'N' => 
         array (
             'NukeViet\\Module\\' => 16,
             'NukeViet\\Api\\' => 13,
             'NukeViet\\' => 9,
         ),
-        'L' =>
+        'L' => 
         array (
             'League\\OAuth2\\Client\\' => 21,
         ),
-        'G' =>
+        'G' => 
         array (
             'GuzzleHttp\\Psr7\\' => 16,
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
         ),
-        'C' =>
+        'C' => 
         array (
             'Com\\Tecnick\\Color\\' => 18,
             'Com\\Tecnick\\Barcode\\' => 20,
@@ -54,68 +54,68 @@ class ComposerStaticInit261687c3e3cd870899aff0ad8589f210
     );
 
     public static $prefixDirsPsr4 = array (
-        'Symfony\\Polyfill\\Php80\\' =>
+        'Symfony\\Polyfill\\Php80\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php80',
         ),
-        'Symfony\\Polyfill\\Mbstring\\' =>
+        'Symfony\\Polyfill\\Mbstring\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
         ),
-        'Symfony\\Polyfill\\Intl\\Normalizer\\' =>
+        'Symfony\\Polyfill\\Intl\\Normalizer\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer',
         ),
-        'Symfony\\Polyfill\\Intl\\Idn\\' =>
+        'Symfony\\Polyfill\\Intl\\Idn\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-intl-idn',
         ),
-        'Psr\\Http\\Message\\' =>
+        'Psr\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-factory/src',
             1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
-        'Psr\\Http\\Client\\' =>
+        'Psr\\Http\\Client\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-client/src',
         ),
-        'PHPMailer\\PHPMailer\\' =>
+        'PHPMailer\\PHPMailer\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
         ),
-        'NukeViet\\Module\\' =>
+        'NukeViet\\Module\\' => 
         array (
             0 => __DIR__ . '/../..' . '/modules',
         ),
-        'NukeViet\\Api\\' =>
+        'NukeViet\\Api\\' => 
         array (
             0 => __DIR__ . '/../..' . '/includes/api',
         ),
-        'NukeViet\\' =>
+        'NukeViet\\' => 
         array (
             0 => __DIR__ . '/..' . '/vinades/nukeviet',
         ),
-        'League\\OAuth2\\Client\\' =>
+        'League\\OAuth2\\Client\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/oauth2-client/src',
         ),
-        'GuzzleHttp\\Psr7\\' =>
+        'GuzzleHttp\\Psr7\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
         ),
-        'GuzzleHttp\\Promise\\' =>
+        'GuzzleHttp\\Promise\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/promises/src',
         ),
-        'GuzzleHttp\\' =>
+        'GuzzleHttp\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
-        'Com\\Tecnick\\Color\\' =>
+        'Com\\Tecnick\\Color\\' => 
         array (
             0 => __DIR__ . '/..' . '/tecnickcom/tc-lib-color/src',
         ),
-        'Com\\Tecnick\\Barcode\\' =>
+        'Com\\Tecnick\\Barcode\\' => 
         array (
             0 => __DIR__ . '/..' . '/tecnickcom/tc-lib-barcode/src',
         ),
